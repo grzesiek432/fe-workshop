@@ -1,3 +1,3 @@
 import {user} from "./user";
 
-alert(user.avatar_url);
+console.log(user.avatar_url);
