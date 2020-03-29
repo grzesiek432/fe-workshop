@@ -1,4 +1,4 @@
-// test failed
+// test passed
 import {map} from "./map";
 
 
@@ -10,8 +10,8 @@ describe('map', () => {
         it('should convert an input to an object with different keys',  () =>  {
 
             //given
-            let givenUrl = 'url';
-            let givenBio = 'bio';
+            const [givenUrl,givenBio] = ['url','bio'];  //destructioning
+
             const input  = {
                 avatar_url: givenUrl,
                 bio: givenBio
