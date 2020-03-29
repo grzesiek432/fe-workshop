@@ -1,0 +1,28 @@
+{
+  "name": "fe-workshops",
+  "version": "1.0.0",
+  "description": "Projekt z kursu JavaScript i frond-end (nie tylko) dla backendowców",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grzesiek432/fe-workshop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/grzesiek432/fe-workshop/issues"
+  },
+  "homepage": "https://github.com/grzesiek432/fe-workshop#readme",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^4.0.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
